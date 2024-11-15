@@ -1,20 +1,13 @@
 <?php
 //Default Configuration
 $CONFIG = '{"lang":"en","error_reporting":false,"show_hidden":false,"hide_Cols":false,"theme":"light"}';
-
 /**
  *  |  V2.5.3
- * @author CCP Programmers
+ * @author 
  */
-
-//TFM version
 define('VERSION', '2.5.3');
-
-//Application Title
 define('APP_TITLE', '');
-
 $use_auth = true;
-
 $auth_users = array(
     'admin' => '$2y$10$cPjIsf4WhReHUk0u8OKBM.HuVmBl1kbDCAQOVKeUibRm2P0PMN/Gy', //
 
@@ -297,7 +290,7 @@ if ($use_auth) {
                         </div>
                         <div class="footer text-center">
                             &mdash;&mdash; &copy;
-                            <a href="https://tinyfilemanager.github.io/" target="_blank" class="text-decoration-none text-muted" data-version="<?php echo VERSION; ?>">CCP Programmers</a> &mdash;&mdash;
+                            <a href="https://tinyfilemanager.github.io/" target="_blank" class="text-decoration-none text-muted" data-version="<?php echo VERSION; ?>"></a> &mdash;&mdash;
                         </div>
                     </div>
                 </div>
@@ -3560,12 +3553,11 @@ global $lang, $root_url, $favicon_path;
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Web based File Manager in PHP, Manage your files efficiently and easily with ">
-    <meta name="author" content="CCP Programmers">
+    <meta name="description" content=" ">
+    <meta name="author" content="">
     <meta name="robots" content="noindex, nofollow">
     <meta name="googlebot" content="noindex">
     <?php if($favicon_path) { echo '<link rel="icon" href="'.fm_enc($favicon_path).'" type="image/png">'; } ?>
-    <title><?php echo fm_enc(APP_TITLE) ?></title>
     <?php print_external('pre-jsdelivr'); ?>
     <?php print_external('css-bootstrap'); ?>
     <style>
@@ -3633,8 +3625,8 @@ $isStickyNavBar = $sticky_navbar ? 'navbar-fixed' : 'navbar-normal';
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Web based File Manager in PHP, Manage your files efficiently and easily with ">
-    <meta name="author" content="CCP Programmers">
+    <meta name="description" content=" ">
+    <meta name="author" content="">
     <meta name="robots" content="noindex, nofollow">
     <meta name="googlebot" content="noindex">
     <?php if($favicon_path) { echo '<link rel="icon" href="'.fm_enc($favicon_path).'" type="image/png">'; } ?>
